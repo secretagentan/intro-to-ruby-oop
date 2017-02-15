@@ -3,7 +3,7 @@ require('./dog.rb')
 
 # .new is a class method
 a1 = Animal.new("Toby", "Dolphin")
-d1 = Dog.new("Trufflles")
+d1 = Dog.new("Truffles")
 puts d1.say_name
 puts a1.say_name
 
