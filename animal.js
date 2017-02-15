@@ -8,15 +8,4 @@ class Animal {
   }
 }
 
-class Dog extends Animal {
-  constructor(name) {
-    super(name, 'Dog');
-    this.hasFleas = true;
-  }
-  sayName() {
-    return super.sayName() + ' Woof!';
-  }
-}
-
-const d1 = new Dog('Joey');
-console.log(d1.sayName());
+module.exports = Animal;
